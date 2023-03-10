@@ -1,0 +1,39 @@
+@import "styles/styles.scss";
+
+.boardGameWrapper {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid $COLOR_SILVER_PHILIPPINE;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $COLOR_BRIGHT_GREY;
+  }
+
+  &.selectedBoardGame {
+    background-color: $COLOR_BRIGHT_GREY;
+  }
+
+  .boardGameImg {
+    width: 100px;
+    border: 2px solid $COLOR_BLACK;
+  }
+
+  .nameTxt {
+    font-weight: $FONT_WEIGHT_BOLD;
+  }
+
+  .cardRightWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .speciesTxt {
+      // height: 40px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

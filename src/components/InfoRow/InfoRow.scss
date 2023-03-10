@@ -1,0 +1,14 @@
+@import "styles/styles.scss";
+
+.infoRow {
+  .nameTxt {
+    display: inline-block;
+    width: 90px;
+    font-size: $FONT_SIZE_18;
+    font-weight: $FONT_WEIGHT_BOLD;
+  }
+
+  .valueTxt {
+    font-size: $FONT_SIZE_24;
+  }
+}

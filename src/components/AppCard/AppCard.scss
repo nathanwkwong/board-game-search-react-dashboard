@@ -1,0 +1,21 @@
+@import "styles/styles.scss";
+
+.card {
+  padding-left: 24px;
+  padding-right: 14px;
+  padding-bottom: 20px;
+
+  &.MuiCard-root {
+    box-shadow: none;
+  }
+
+  .cardHeader {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .titleTxt {
+    font-size: $FONT_SIZE_20;
+    font-weight: $FONT_WEIGHT_BOLD;
+  }
+}

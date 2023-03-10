@@ -1,0 +1,29 @@
+@import "styles/styles.scss";
+
+.SectionBoardGameDetail {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  min-width: 500px;
+
+  .sectionContentWrapper {
+    max-height: calc(100vh - 170px);
+    overflow-y: scroll;
+  }
+
+  .noBoardGameWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .appFooterWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

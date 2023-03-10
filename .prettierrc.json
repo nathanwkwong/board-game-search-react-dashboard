@@ -1,0 +1,14 @@
+{
+  "importOrder": [
+    "^(react|react-(.*)$)",
+    "<THIRD_PARTY_MODULES>",
+    "^(@//(.*)$|@/)",
+    "^(pages/(.*)$|pages|layouts/(.*)$|layouts|components/(.*)$|components)",
+    "^(hooks/(.*)$|hooks|routes/(.*)$|routes|constants/(.*)$|constants)",
+    "^(services/(.*)$|services|utils/(.*)$|utils)",
+    "^(styles/(.*)$|styles)",
+    "^(./(.*)$|../(.*)$)"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

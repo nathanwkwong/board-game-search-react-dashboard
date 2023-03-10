@@ -1,0 +1,17 @@
+@import "styles/styles.scss";
+
+.dashboardWrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 98vh;
+  width: 100%;
+
+  .appNavBarWrapper {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .contentWrapper {
+    flex: 1;
+  }
+}

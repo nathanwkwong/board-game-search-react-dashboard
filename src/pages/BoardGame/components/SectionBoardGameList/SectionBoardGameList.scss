@@ -1,0 +1,11 @@
+@import "styles/styles.scss";
+
+.SectionBoardGameList {
+  @include appBoarder(border-right);
+  width: 400px;
+
+  .listBoardGame {
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+  }
+}

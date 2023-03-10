@@ -1,0 +1,24 @@
+@import "styles/styles.scss";
+
+.headerBoardGame {
+  display: flex;
+  align-items: center;
+  height: 170px;
+  max-width: 100%;
+  padding: 20px;
+  @include appBoarder(border-bottom);
+
+  .imageHolder,
+  .boardGameImg {
+    height: 125px;
+    width: 125px;
+    border: 2px solid $COLOR_BLACK;
+    background-color: $COLOR_BRIGHT_GREY;
+  }
+
+  .nameTxt {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: $FONT_WEIGHT_BOLD;
+  }
+}

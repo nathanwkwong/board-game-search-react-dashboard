@@ -1,0 +1,25 @@
+@import "./styles.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: $COLOR_WHITE;
+}
+
+html,
+body {
+  font-size: $FONT_SIZE_BODY;
+  font-weight: $FONT_WEIGHT_MEDIUM;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,3 @@
+@mixin appBoarder($border-property) {
+  #{$border-property}: 3px solid $COLOR_SILVER_PHILIPPINE;
+}

@@ -1,0 +1,12 @@
+@import "styles/styles.scss";
+
+.pageHomeWrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  .welcomeTxt {
+    margin-top: 100px;
+    font-size: $FONT_SIZE_24;
+  }
+}
