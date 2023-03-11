@@ -1,6 +1,6 @@
 # Getting Started with board-game-search-react-dashboard
 
-This project built from TypeScript, React.js, React Query, Material UI and Vite.\
+This project is a SPA built from TypeScript, React.js, React Query, Material UI and Vite.\
 It connected to [Board Game Atlas API](https://www.boardgameatlas.com/api) and shows board game information.\
 It is deployed on https://board-game-search-react-dashboard.vercel.app \
 
